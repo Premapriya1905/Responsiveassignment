@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    justify-content: space-around;
+}
+#yellow{
+    background-color: rgb(209, 182, 31);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 35px;
+    border-radius: 0px 5px 5px 0px;
+}
+#yellow img{
+    height: 15px;
+    width: 15px;
+}
+input{
+    height: 30px;
+    width: 600px;
+}
+#select{
+    position: relative;
+    left: 5px;
+    height:30px ;
+    width: 50px;
+}
+.arrow{
+    background-color: black;
+    color:grey;
+    border: black;
+}
+.grey1{
+    color: grey;
+}
+nav{
+    display: flex;
+    background-color: rgb(39,46,65);
+    align-items: center;
+    color: white;
+    height: 40px;
+}
+body{
+    background-image:url(./assets/background\ picture.png);
+    background-position:center 100px;
+}
+.photo1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.div-flex{
+    display: flex;
+}
+#photos{
+    display: flex;
+    margin-top: 25%;
+    justify-content:space-evenly;
+    
+}
+.photo2{
+    background-color: rgb(236, 214, 15);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name1{
+    color: rgb(38, 50, 226);
+}
+.div-margin{
+    margin: 10px;
+}
+.photo3{
+    height: 220px;
+    width: 220px;
+}
+#photo5{
+    position: relative;
+    top: 20px;
+}
+#photo4{
+    position: relative;
+    left: 13px;
+    
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media(max-width:768px){
+    input{
+        width: 50px;
+        height: 20px;
+    }
+     #yellow{
+        height: 20px;
+    }
+    header{
+        font-size: 10px;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+    #photos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo1{
+       width: 250px;
+       margin-top: 20px;
+    }
+    .photo1 img {
+        height: 75px;
+        width: 100px;
+    }
+    #photo4{
+        height: 200px;
+        width: 200px;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-color: rgb(21,58,72);
+        background-size: 650px;
+        background-position-y: 100px;
+    }
+    nav{
+        overflow-x: auto;
+        flex-wrap: wrap;
+    }
+    #ham{
+        height: 15px;
+        width: 15px;
+    }
+    nav p{
+        margin-left: 4px;
+    }
+
+   
+    
+}
